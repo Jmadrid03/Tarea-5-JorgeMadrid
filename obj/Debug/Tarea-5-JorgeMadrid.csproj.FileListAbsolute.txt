@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\bin\Debug\Tarea-5-JorgeMadrid.exe.config
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\bin\Debug\Tarea-5-JorgeMadrid.exe
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\bin\Debug\Tarea-5-JorgeMadrid.pdb
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea-5-JorgeMadrid.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmCalcular_el_Porcentaje_de_Ganancia_de_un_Producto.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmCalcular_la_Cantidad_de_Litros_de_Agua.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmMenú.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea-5-JorgeMadrid.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea-5-JorgeMadrid.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea-5-JorgeMadrid.exe
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea-5-JorgeMadrid.pdb
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmCalcular_el_Promedio_de_Estudiante_si_Aprobo_o_Reprobo.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmNota_de_Estudiante.resources
+C:\Users\Usuario\Desktop\Progra-3-JorgeMadrid\Tarea-5-JorgeMadrid\obj\Debug\Tarea_5_JorgeMadrid.Formularios.FrmFactura_de_Venta.resources

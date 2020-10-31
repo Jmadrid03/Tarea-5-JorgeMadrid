@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1B146FC-4C73-40AB-B1EE-BE52A9ED3239}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tarea_5_JorgeMadrid</RootNamespace>
+    <AssemblyName>Tarea-5-JorgeMadrid</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases de Orientada a Objetos\Class Programación Orientada Objetos.cs" />
+    <Compile Include="Formularios\FrmCalcular el Porcentaje de Ganancia de un Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCalcular el Porcentaje de Ganancia de un Producto.Designer.cs">
+      <DependentUpon>FrmCalcular el Porcentaje de Ganancia de un Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmCalcular el Promedio de Estudiante si Aprobo o Reprobo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCalcular el Promedio de Estudiante si Aprobo o Reprobo.Designer.cs">
+      <DependentUpon>FrmCalcular el Promedio de Estudiante si Aprobo o Reprobo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmCalcular la Cantidad de Litros de Agua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCalcular la Cantidad de Litros de Agua.Designer.cs">
+      <DependentUpon>FrmCalcular la Cantidad de Litros de Agua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmFactura de Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmFactura de Venta.Designer.cs">
+      <DependentUpon>FrmFactura de Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMenú.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMenú.Designer.cs">
+      <DependentUpon>FrmMenú.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmNota de Estudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmNota de Estudiante.Designer.cs">
+      <DependentUpon>FrmNota de Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FrmCalcular el Porcentaje de Ganancia de un Producto.resx">
+      <DependentUpon>FrmCalcular el Porcentaje de Ganancia de un Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCalcular el Promedio de Estudiante si Aprobo o Reprobo.resx">
+      <DependentUpon>FrmCalcular el Promedio de Estudiante si Aprobo o Reprobo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCalcular la Cantidad de Litros de Agua.resx">
+      <DependentUpon>FrmCalcular la Cantidad de Litros de Agua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmFactura de Venta.resx">
+      <DependentUpon>FrmFactura de Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMenú.resx">
+      <DependentUpon>FrmMenú.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmNota de Estudiante.resx">
+      <DependentUpon>FrmNota de Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
